@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashavtara</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f1e4;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            background: linear-gradient(135deg, #7b1e1e, #d97706);
+            color: white;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 48px;
+            letter-spacing: 4px;
+            margin-bottom: 20px;
+        }
+
+        header img {
+            width: 300px;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 15px;
+            border: 5px solid white;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+        }
+
+        header h2 {
+            margin-top: 25px;
+            font-size: 28px;
+        }
+
+        /* Main Container */
+        main {
+            width: 90%;
+            max-width: 1100px;
+            margin: 50px auto;
+        }
+
+        /* Avatar Section */
+        .avatar {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            background: white;
+            padding: 35px;
+            margin-bottom: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+        }
+
+        .avatar:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        .avatar img {
+            width: 300px;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 15px;
+            border: 4px solid #d97706;
+            flex-shrink: 0;
+        }
+
+        .avatar-content {
+            flex: 1;
+        }
+
+        .avatar-content h2 {
+            color: #8b2c2c;
+            font-size: 30px;
+            margin-bottom: 15px;
+            border-bottom: 3px solid #d97706;
+            display: inline-block;
+        }
+
+        .avatar-content p {
+            font-size: 17px;
+            text-align: justify;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            background: #7b1e1e;
+            color: white;
+            padding: 25px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            font-size: 16px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 35px;
+            }
+
+            .avatar,
+            .avatar:nth-child(even) {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .avatar img {
+                width: 100%;
+                max-width: 300px;
+            }
+
+            .avatar-content p {
+                text-align: left;
+            }
+
+            main {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>DASHAVTARA</h1>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Vishnu_Avatars.jpg"
+             alt="Dashavtara">
+
+        <h2>Details of Dashavtara</h2>
+    </header>
+
+    <main>
+
+        <!-- Matsya -->
+        <section class="avatar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Matsya_Raja_Ravi_Varma_Press.jpg"
+                 alt="Matsya Avatar">
+
+            <div class="avatar-content">
+                <h2>1. Matsya</h2>
+                <p>
+                    Matsya (Sanskrit: मत्स्य, meaning "fish") is the fish avatar of the Hindu god Vishnu.
+                    Often described as the first of Vishnu's ten primary avatars, Matsya is said to have
+                    rescued the first man, Manu, from a great deluge. Matsya may be depicted as a giant
+                    fish, often golden in color, or anthropomorphically with the torso of Vishnu connected
+                    to the rear half of a fish.
+                </p>
+            </div>
+        </section>
+
+        <!-- Kurma -->
+        <section class="avatar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Kurma_Avatar_by_Raja_Ravi_Varma.jpg"
+                 alt="Kurma Avatar">
+
+            <div class="avatar-content">
+                <h2>2. Kurma</h2>
+                <p>
+                    Kurma (Sanskrit: कूर्म, meaning "turtle" or "tortoise") is the second avatar of Vishnu.
+                    Kurma is most commonly associated with the legend of the churning of the Ocean of Milk,
+                    known as Samudra Manthana. Kurma is listed as the second of the Dashavatara, the ten
+                    principal incarnations of Vishnu.
+                </p>
+            </div>
+        </section>
+
+        <!-- Varaha -->
+        <section class="avatar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Varaha_Raja_Ravi_Varma.jpg"
+                 alt="Varaha Avatar">
+
+            <div class="avatar-content">
+                <h2>3. Varaha</h2>
+                <p>
+                    Varaha (Sanskrit: वराह, meaning "boar") is the third avatar of Vishnu, appearing in
+                    the form of a boar. According to Hindu mythology, Varaha rescued the earth goddess
+                    Bhumi from the cosmic ocean after the demon Hiranyaksha had hidden her in the waters.
+                    Varaha defeated Hiranyaksha and restored Bhumi to her place in the universe.
+                </p>
+            </div>
+        </section>
+
+        <!-- Narasimha -->
+        <section class="avatar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/NarayanaTirumala15.JPG"
+                 alt="Narasimha Avatar">
+
+            <div class="avatar-content">
+                <h2>4. Narasimha</h2>
+                <p>
+                    Narasimha (Sanskrit: नरसिंह, meaning "man-lion") is the fourth avatar of Vishnu.
+                    He appeared as a part-lion and part-man to defeat Hiranyakashipu, end religious
+                    persecution, and restore dharma. Narasimha is an important deity in the Vaishnava
+                    tradition and is also associated with yoga as Yoga-Narasimha.
+                </p>
+            </div>
+        </section>
+
+        <!-- Vamana -->
+        <section class="avatar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Vaman.jpg"
+                 alt="Vamana Avatar">
+
+            <div class="avatar-content">
+                <h2>5. Vamana</h2>
+                <p>
+                    Vamana (Sanskrit: वामन, meaning "dwarf") is the fifth avatar of Vishnu and the first
+                    Dashavatara of the Treta Yuga. He is also known as Trivikrama, meaning "three steps".
+                    Vamana is associated with the legendary story of King Bali and is known for his three
+                    cosmic strides.
+                </p>
+            </div>
+        </section>
+
+        <!-- Parashurama -->
+        <section class="avatar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Parashurama_with_axe.jpg"
+                 alt="Parashurama Avatar">
+
+            <div class="avatar-content">
+                <h2>6. Parashurama</h2>
+                <p>
+                    Parashurama (Sanskrit: परशुराम, meaning "Rama with an axe") is the sixth avatar of
+                    Vishnu. He is described in Hindu tradition as a warrior who fought against injustice
+                    and evil. Parashurama is also considered one of the Chiranjivis, or immortals, in
+                    Hindu tradition.
+                </p>
+            </div>
+        </section>
+
+        <!-- Krishna -->
+        <section class="avatar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Sri_Mariamman_Temple_Singapore_2_amk.jpg"
+                 alt="Krishna">
+
+            <div class="avatar-content">
+                <h2>7. Krishna</h2>
+                <p>
+                    Krishna is a major deity in Hinduism and is widely worshipped as the eighth avatar
+                    of Vishnu. He is associated with protection, compassion, tenderness, and love.
+                    Krishna's birthday is celebrated as Krishna Janmashtami according to the Hindu
+                    lunisolar calendar.
+                </p>
+            </div>
+        </section>
+
+        <!-- Buddha -->
+        <section class="avatar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Buddha_incarnation_of_Vishnu%2C_from_Sunari%2C_Medieval_period.jpg"
+                 alt="Buddha">
+
+            <div class="avatar-content">
+                <h2>8. Buddha</h2>
+                <p>
+                    The Buddha, meaning "the enlightened one", is considered the ninth avatar among the
+                    ten major avatars of Vishnu in some Vaishnava traditions. The identification of the
+                    Buddha as an avatar of Vishnu varies among Hindu traditions and texts.
+                </p>
+            </div>
+        </section>
+
+        <!-- Kalki -->
+        <section class="avatar">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Kalki_Avatar_by_Ravi_Varma.jpg"
+                 alt="Kalki Avatar">
+
+            <div class="avatar-content">
+                <h2>9. Kalki</h2>
+                <p>
+                    Kalki (Sanskrit: कल्कि) is the prophesied tenth and final incarnation of Vishnu.
+                    According to Vaishnava tradition, Kalki is destined to appear at the end of the Kali
+                    Yuga. His arrival is associated with the end of the Kali Yuga and the restoration
+                    of dharma and righteousness.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2025 Dashavtara | Exploring the Avatars of Vishnu</p>
+    </footer>
+
+</body>
+</html>
